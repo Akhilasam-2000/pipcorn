@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header{
+  background-color: #e4d3a2;
+  padding: 1rem;
+}
+header Link{
+  text-decoration: none;
+  color:brown
+}
+main{
+  padding:1 rem;
+}
+.products{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  /* margin-bottom: 200px; */
+}
+.product{
+  border:1px solid black;
+  margin:1 rem;
+  margin-bottom: 20px;
+}
+.product img{
+  width:100%;
+}
+.product-info{
+  padding:1 rem;
+}
+.login{
+  border:1px solid black;
+padding:30px;
+  width:20%;
+  margin:0 auto;
+  background-color: #e4d3a2;
+}
+.inputdetails{
+  margin-bottom: 20px;
+}
+.passworddetails{
+  
+    margin-bottom: 20px;
+  
+}
+.Login-container{
+  border:1px solid black;
+  padding:30px;
+    width:20%;
+    margin:0 auto;
+    background-color: #e4d3a2;
+  }
+.login-input{
+  margin-bottom:20px;
+  border:1px solid black;
+}
+.loginpage{
+align-items: center;
+  margin-bottom:20px;
+  /* margin :0 auto; */
+  padding:5px;
+  width:50%;
+
+}
+.loginpages{
+  border:1px solid black;
+  background-color: #e4d3a2;
+  width:20%;
+  padding:30px;
+  margin:0 auto;
+}
+.headinglog{
+  text-align: center;
+}
+.inputform{
+  text-align:center;
+}
+.loginbutton{
+  /* width: 40%; */
+  padding:8px;
+}
+
+.icon{
+position: relative;
+}
+.accounticon{
+  position: absolute;
+  right: 20px;
+  bottom:-3px;
+  width:35px;
+  height:35px;
+}
+.accountcss{
+  border:1px solid black;
+  background-color: #e4d3a2;
+  width:20%;
+  padding:30px;
+  margin:0 auto;
+}
